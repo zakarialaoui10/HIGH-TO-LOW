@@ -110,7 +110,7 @@ li $t1,3
 li $t2,1
 li $a0,0
 loop:
-beq $a0,3,fin
+beq $a0,$t1,fin
 mult $t2,$t0
 mflo  $t2
 addi $a0,$a0,1
