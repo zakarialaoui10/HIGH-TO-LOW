@@ -6,7 +6,7 @@
 #include<stdio.h>
 int main(){
 int a=5,b=3,c=0;
-if(a==b)c=a+b;
+if (a==b) c=a+b;
 else c=a-b;
 	printf("%d",c);
 	return 0;
@@ -32,14 +32,14 @@ int main(){
 int a=1;
 int b=4;
 int c;
-if(a==1)
+if (a==1)
 {
 	c=a;
 	if(b!=3){
 		c+=b;
 	}	
 }
-printf("%d",c);
+printf ("%d",c);
 }
 ```
 <h6>MIPS Assembly</h6>
@@ -64,11 +64,11 @@ int main(){
 int a=1;
 int b=0;
 switch(a){
-	case 0:b=-1;break;
-	case 1:b=0;break;
-	default:b=1;break;
+	case 0:b=-1; break;
+	case 1:b=0; break;
+	default :b=1; break;
 }
-printf("%d",b);
+printf ("%d",b);
 }
 ```
 <h6>MIPS Assembly</h6>
@@ -87,7 +87,7 @@ j fin
 default:li $t1,1
 fin:
 ```
-<h3>if else statement</h3>
+<h3>Array's elements somme</h3>
 <h6>C</h6>
 
 ```bash
@@ -96,11 +96,11 @@ int main(){
 	int tab[10]={0,1,2,3,4,5,6,7,8,9};
 	int s=0;
 	int i=0;
-	while(i<10){
+	while (i<10){
 		s+=*(tab+i); // s=s+tab[i]
 		i++;
 	}
-	printf("%d",s);
+	printf ("%d",s);
 	return 0;
 }
 ```
