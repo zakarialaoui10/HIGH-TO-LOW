@@ -117,6 +117,34 @@ addi $a0,$a0,1
 j loop
 fin :
 ```
+<h3>Factoriel</h3>
+<h6>C</h6>
+
+```c
+#include<stdio.h>
+int main(){
+	int x=4;
+	int i;
+	int f=1;
+	for(i=x;i>1;i--)
+	f*=i;
+	printf("%d",f);
+}
+```
+<h6>MIPS Assembly</h6>
+
+```assembly
+li $t0,4
+li $t2,1
+la $a0,($t0)
+loop:
+beq $a0,1,fin
+mult $t2,$a0
+mflo  $t2
+subi $a0,$a0,1
+j loop
+fin :
+```
 
 <h3>Array's elements somme</h3>
 <h6>C</h6>
