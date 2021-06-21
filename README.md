@@ -87,6 +87,37 @@ j fin
 default:li $t1,1
 fin:
 ```
+<h3>Power</h3>
+<h6>C</h6>
+
+```c
+#include<stdio.h>
+int main(){
+	int x=4;
+	int n=3;
+	int i=0;
+	int p=1;
+	for(i=0;i<n;i++)
+	p*=x;
+	printf("%d",p);
+}
+```
+<h6>MIPS Assembly</h6>
+
+```assembly
+li $t0,4
+li $t1,3
+li $t2,1
+li $a0,0
+loop:
+beq $a0,3,fin
+mult $t2,$t0
+mflo  $t2
+addi $a0,$a0,1
+j loop
+fin :
+```
+
 <h3>Array's elements somme</h3>
 <h6>C</h6>
 
