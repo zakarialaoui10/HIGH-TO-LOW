@@ -87,3 +87,37 @@ j fin
 default:li $t1,1
 fin:
 ```
+<h3>if else statement</h3>
+<h6>C</h6>
+
+```bash
+#include<stdio.h>
+int main(){
+	int tab[10]={0,1,2,3,4,5,6,7,8,9};
+	int s=0;
+	int i=0;
+	while(i<10){
+		s+=*(tab+i); // s=s+tab[i]
+		i++;
+	}
+	printf("%d",s);
+	return 0;
+}
+```
+<h6>MIPS Assembly</h6>
+
+```bash
+.data 
+tab: .byte 0,1,2,3,4,5,6,7,8,9
+.text 
+main: 
+la $t0, tab 
+li $a0,0 #compteur
+li $s0,0 #somme
+loop:
+lb $t1,($t0)
+add $s0,$s0,$t1
+addi $t0,$t0,1
+addi $a0,$a0,1
+bne $a0,10,loop
+```
