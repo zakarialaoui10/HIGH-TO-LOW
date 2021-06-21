@@ -1,5 +1,6 @@
 <h1>in this repository you will find codes in C and their equivalence in MIPS Assembly</h1>
 <h3>if else statement</h3>
+<h6>C</h6>
 
 ```bash
 #include<stdio.h>
@@ -11,6 +12,8 @@ else c=a-b;
 	return 0;
 }
 ```
+<h6>MIPS Assembly</h6>
+
 ```bash
 li $t0,5       #a
 li $t1,3       #b
@@ -21,6 +24,7 @@ if:add $t2,$t0,$t1
 else:sub $t2,$t0,$t1
 ```
 <h3>nested if</h3>
+<h6>C</h6>
 
 ```bash
 #include<stdio.h>
@@ -38,6 +42,8 @@ if(a==1)
 printf("%d",c);
 }
 ```
+<h6>MIPS Assembly</h6>
+
 ```bash
 li $t0,1  #a
 li $t1,4  #b
@@ -50,6 +56,7 @@ if:
 fin:
 ```
 <h3>switch statement</h3>
+<h6>C</h6>
 
 ```bash
 #include<stdio.h>
@@ -64,6 +71,7 @@ switch(a){
 printf("%d",b);
 }
 ```
+<h6>MIPS Assembly</h6>
 
 ```bash
 li $t0,1      #a
