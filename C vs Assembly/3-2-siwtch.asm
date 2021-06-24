@@ -5,8 +5,11 @@ beq $t0,0,case0
 beq $t0,1,case1
 j default
 case0:li $t1,-1
-j fin
+j print
 case1:li $t1,0
-j fin
+j print
 default:li $t1,1
-fin:
+print:
+li $v0,1
+move $a0,$t1
+syscall 
