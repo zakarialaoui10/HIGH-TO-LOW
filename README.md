@@ -1,6 +1,6 @@
 <h1>in this repository you will find codes in C and their equivalence in MIPS Assembly</h1>
 <h3>if else statement</h3>
-<h6>C</h6>
+<h6>C </h6>
 
 ```c
 #include<stdio.h>
