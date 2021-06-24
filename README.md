@@ -22,6 +22,10 @@ beq $t0,$t1,if
 j else
 if:add $t2,$t0,$t1
 else:sub $t2,$t0,$t1
+print:
+li $v0,1
+move $a0,$t2
+syscall 
 ```
 <h3>nested if</h3>
 <h6>C</h6>
