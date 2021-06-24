@@ -134,16 +134,19 @@ int main(){
 <h6>MIPS Assembly</h6>
 
 ```assembly
-li $t0,4
-li $t2,1
-la $a0,($t0)
+li $s0,4
+li $s2,1
+la $t0,($s0)
 loop:
-beq $a0,1,fin
-mult $t2,$a0
-mflo  $t2
-subi $a0,$a0,1
+beq $t0,1,print
+mult $s2,$t0
+mflo  $s2
+subi $t0,$t0,1
 j loop
-fin :
+print :
+li $v0,1
+la $a0,($s2)
+syscall 
 ```
 
 <h3>Array's elements somme</h3>
