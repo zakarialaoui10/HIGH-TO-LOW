@@ -1,7 +1,7 @@
 .data
- msg: .float 2.5
+ number: .float 2.5
 .text
  li $v0,2
- lwc1 $f12,msg
+ lwc1 $f12,number
  syscall 
  
