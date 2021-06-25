@@ -1,4 +1,4 @@
-<h1>in this repository you will find codes in C and their equivalence in MIPS Assembly</h1>
+<h2>In this repository you will find codes in C and their equivalence in MIPS Assembly</h2>
 <h3>hello world</h3>
 <h6>C</h6>
 
