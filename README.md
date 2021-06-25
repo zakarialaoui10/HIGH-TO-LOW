@@ -58,10 +58,10 @@ float number=2.5;
 
 ```assembly
 .data
- number: .word 2
+ number: .float 2.5
 .text
- li $v0,1
- lw $a0,number
+ li $v0,2
+ lwc1 $f12,number
  syscall 
 ```
 <h3> read and print an integer </h3>
