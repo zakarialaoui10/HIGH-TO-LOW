@@ -42,6 +42,28 @@ int number=2;
  lw $a0,number
  syscall 
 ```
+<h3>print a float</h3>
+<h6>C</h6>
+
+```c
+#include<stdio.h>
+int main(){
+float number=2.5;
+  printf("%f",number);
+  return 0;
+}
+
+```
+<h6>MIPS Assembly</h6>
+
+```assembly
+.data
+ number: .word 2
+.text
+ li $v0,1
+ lw $a0,number
+ syscall 
+```
 <h3> read and print an integer </h3>
 <h6>C</h6>
 
