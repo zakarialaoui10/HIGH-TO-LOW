@@ -1,7 +1,7 @@
 .data
- msg: .word 2
+ number: .word 2
 .text
  li $v0,1
- lw $a0,msg
+ lw $a0,number
  syscall 
  
