@@ -1,4 +1,42 @@
 <h1>in this repository you will find codes in C and their equivalence in MIPS Assembly</h1>
+<h3> read and print an integer </h3>
+<h6>C</h6>
+
+```c
+#include<stdio.h>
+int main(){
+int a;
+printf("enter an integer : ");
+scanf("%d",&a);
+printf("your integer is : ");
+printf("%d",a);
+return 0;
+}
+```
+<h6>MIPS Assembly</h6>
+
+```assembly
+.data
+ msg1: .asciiz "enter an integer : "
+ msg2: .asciiz "your integer is  : "
+.text
+ print_msg1:li $v0,4
+           la $a0,msg1
+           syscall 
+ read_integer:li $v0,5
+              syscall 
+la $s0,($v0) #save_integer_in_s0:
+ print_msg2:li $v0,4
+            la $a0,msg2
+            syscall              
+ print_integer:li $v0,1
+               la $a0,($s0)
+               syscall 
+ 
+  
+```
+
+
 <h3>if else statement</h3>
 <h6>C </h6>
 
