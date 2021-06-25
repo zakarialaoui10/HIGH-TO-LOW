@@ -11,6 +11,7 @@ int main(){
 
 ```
 <h6>MIPS Assembly</h6>
+
 ```assembly
 .data
  msg: .asciiz "hello world"
