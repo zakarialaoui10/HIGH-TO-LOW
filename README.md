@@ -157,8 +157,12 @@ int main(){
 <h6>MIPS Assembly</h6>
 
 ```assembly
-li $s0,4
-li $s1,3
+read_x:li $v0,5
+       syscall 
+       la $s0,($v0)
+read_n:li $v0,5
+       syscall 
+       la $s1,($v0)
 li $s2,1 #p
 li $t0,0
 loop:
