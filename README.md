@@ -25,7 +25,7 @@ return 0;
            syscall 
  read_integer:li $v0,5
               syscall 
-la $s0,($v0) #save_integer_in_s0:
+ la $s0,($v0) #save_integer_in_s0:
  print_msg2:li $v0,4
             la $a0,msg2
             syscall              
