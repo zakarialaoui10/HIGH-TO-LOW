@@ -178,7 +178,8 @@ syscall
 ```c
 #include<stdio.h>
 int main(){
-	int x=4;
+	int x;
+	scanf("%d",&x);
 	int i;
 	int f=1;
 	for(i=x;i>1;i--)
@@ -189,7 +190,9 @@ int main(){
 <h6>MIPS Assembly</h6>
 
 ```assembly
-li $s0,4
+li $v0,5
+syscall 
+la $s0,($v0)
 li $s2,1
 la $t0,($s0)
 loop:
@@ -201,7 +204,7 @@ j loop
 print :
 li $v0,1
 la $a0,($s2)
-syscall 
+syscall
 ```
 
 <h3>Array's elements somme</h3>
