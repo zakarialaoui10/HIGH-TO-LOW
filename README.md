@@ -20,6 +20,28 @@ int main(){
  la $a0,msg
  syscall
 ```
+<h3>Print an integer</h3>
+<h6>C</h6>
+
+```c
+#include<stdio.h>
+int main(){
+int number=2;
+  printf("%d",number);
+  return 0;
+}
+
+```
+<h6>MIPS Assembly</h6>
+
+```assembly
+.data
+ number: .word 2
+.text
+ li $v0,1
+ lw $a0,number
+ syscall 
+```
 <h3> read and print an integer </h3>
 <h6>C</h6>
 
