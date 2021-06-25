@@ -1,4 +1,23 @@
 <h1>in this repository you will find codes in C and their equivalence in MIPS Assembly</h1>
+<h3>hello world</h3>
+<h6>C</h6>
+
+```c
+#include<stdio.h>
+int main(){
+  printf("hello world");
+  return 0;
+}
+
+```
+```assembly
+.data
+ msg: .asciiz "hello world"
+.text
+ li $v0,4
+ la $a0,msg
+ syscall
+```
 <h3> read and print an integer </h3>
 <h6>C</h6>
 
