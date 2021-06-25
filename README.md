@@ -106,8 +106,9 @@ syscall
 ```c
 #include<stdio.h>
 int main(){
-int a=1;
+int a;
 int b=0;
+scanf("%d",&a);
 switch(a){
 	case 0:b=-1; break;
 	case 1:b=0; break;
@@ -119,20 +120,23 @@ printf("%d",b);
 <h6>MIPS Assembly</h6>
 
 ```assembly
-li $t0,1      #a
-li $t1,0      #b
+# a====>$s0
+# b====>$s1
+read_a:li $v0,5
+       syscall 
+       la $s0,($v0)
 switch:
-beq $t0,0,case0
-beq $t0,1,case1
+beq $s0,0,case0
+beq $s0,1,case1
 j default
-case0:li $t1,-1
+case0:li $s1,-1
 j print
-case1:li $t1,0
+case1:li $s1,0
 j print
-default:li $t1,1
+default:li $s1,1
 print:
 li $v0,1
-move $a0,$t1
+move $a0,$s1
 syscall 
 ```
 <h3>Power</h3>
