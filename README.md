@@ -129,6 +129,35 @@ move $a0,$s2
 syscall
   
 ```
+<h3> substraction of 2 integers </h3>
+<h6>C</h6>
+
+```c
+#include<stdio.h>
+int main()
+{
+  int a,b,c;
+  scanf("%d%d",&a,&b);
+  c=a-b;
+  printf("%d",c);
+  return 0;
+}
+```
+<h6>MIPS Assembly</h6>
+
+```assembly
+li $v0,5
+syscall
+move $s0,$v0
+li $v0,5
+syscall
+move $s1,$v0
+sub $s2,$s0,$s1
+li $v0,1
+move $a0,$s2
+syscall
+  
+```
 <h3>if else statement</h3>
 <h6>C </h6>
 
