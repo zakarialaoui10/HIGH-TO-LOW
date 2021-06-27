@@ -331,6 +331,45 @@ li $v0,1
 la $a0,($s2)
 syscall
 ```
+<h3>the parity of a number using the rest of the division</h3>
+<h6>C</h6>
+
+```c
+#include<stdio.h>
+int main(){
+  int number;
+  read:scanf("%d",&number);
+  if(number%2==0){
+    printf("even\n");
+    goto read;
+    }
+  else printf("odd\n");
+  goto read;
+}
+```
+<h6>MIPS Assembly</h6>
+
+```assembly
+.data 
+ even : .asciiz "even\n"
+ odd : .asciiz "odd\n"
+ .text
+read:li $v0,5
+syscall
+move $s0,$v0
+li $t0,2
+div $s0,$t0
+mfhi $t1
+beq $t1,0,iseven
+li $v0,4
+la $a0,odd
+syscall 
+j read
+iseven: li $v0,4
+      la $a0,even
+      syscall
+j read
+```
 
 <h3>Array's elements somme</h3>
 <h6>C</h6>
