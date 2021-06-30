@@ -4,6 +4,6 @@ int main(){
   a=a+b;
   b=a-b;
   a=a-b;
-  print("%d\n%d",a,b);
+  printf("%d\n%d",a,b);
   return 0;
 }
