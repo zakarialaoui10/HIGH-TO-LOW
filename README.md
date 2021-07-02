@@ -437,7 +437,7 @@ la $a0,($s1)
 syscall
 ```
 ### swap 2 numbers using addition and subtraction 
-<h6>C</h6>
+###### C
 
 ```c
 #include<stdio.h>
