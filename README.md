@@ -42,7 +42,7 @@ int number=2;
  syscall 
 ```
 ### print a float
-<h6>C</h6>
+###### C
 
 ```c
 #include<stdio.h>
