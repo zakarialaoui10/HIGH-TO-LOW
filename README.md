@@ -237,7 +237,7 @@ switch(a){
 printf("%d",b);
 }
 ```
-<h6>MIPS Assembly</h6>
+###### MIPS Assembly
 
 ```assembly
 # a====>$s0
