@@ -64,7 +64,7 @@ float number=2.5;
  lwc1 $f12,number
  syscall 
 ```
-<h3> read and print an integer </h3>
+### read and print an integer 
 <h6>C</h6>
 
 ```c
