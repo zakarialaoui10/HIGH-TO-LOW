@@ -158,7 +158,7 @@ syscall
   
 ```
 ### if else statement
-<h6>C </h6>
+###### C
 
 ```c
 #include<stdio.h>
