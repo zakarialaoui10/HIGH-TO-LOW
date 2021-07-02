@@ -437,7 +437,7 @@ li $v0,1
 la $a0,($s1)
 syscall
 ```
-<h3>swap 2 numbers using addition and subtraction</h3>
+### swap 2 numbers using addition and subtraction 
 <h6>C</h6>
 
 ```c
