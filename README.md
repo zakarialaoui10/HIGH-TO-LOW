@@ -466,7 +466,7 @@ la $a0,($s1)
 syscall 
 ```
 ### swap 2 numbers using bitwise xor operator
-<h6>C</h6>
+###### C
 
 ```c
 #include<stdio.h>
