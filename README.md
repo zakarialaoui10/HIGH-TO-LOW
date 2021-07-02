@@ -20,7 +20,7 @@ int main(){
  la $a0,msg
  syscall
 ```
-<h3>print an integer</h3>
+### print an integer
 <h6>C</h6>
 
 ```c
