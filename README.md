@@ -186,7 +186,7 @@ li $v0,1
 move $a0,$t2
 syscall 
 ```
-<h3>nested if</h3>
+### nested if
 <h6>C</h6>
 
 ```c
