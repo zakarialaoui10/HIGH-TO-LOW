@@ -100,7 +100,7 @@ return 0;
   
 ```
 ### addition of 2 integers
-<h6>C</h6>
+###### C
 
 ```c
 #include<stdio.h>
