@@ -77,7 +77,7 @@ printf("%d",a);
 return 0;
 }
 ```
-<h6>MIPS Assembly</h6>
+###### MIPS Assembly
 
 ```assembly
 .data
