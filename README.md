@@ -466,7 +466,7 @@ li $v0,1
 la $a0,($s1)
 syscall 
 ```
-<h3>swap 2 numbers using bitwise xor operator</h3>
+### swap 2 numbers using bitwise xor operator
 <h6>C</h6>
 
 ```c
