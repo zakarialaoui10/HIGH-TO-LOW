@@ -42,7 +42,7 @@ int number=2;
  lw $a0,number
  syscall 
 ```
-<h3>print a float</h3>
+### print a float
 <h6>C</h6>
 
 ```c
