@@ -221,7 +221,7 @@ move $a0,$t2
 syscall 
 ```
 ### switch statement
-<h6>C</h6>
+###### C
 
 ```c
 #include<stdio.h>
