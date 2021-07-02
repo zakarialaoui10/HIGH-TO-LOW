@@ -331,7 +331,7 @@ li $v0,1
 la $a0,($s2)
 syscall
 ```
-<h3>the parity of a number using the rest of the division</h3>
+### the parity of a number using the rest of the division
 <h6>C</h6>
 
 ```c
