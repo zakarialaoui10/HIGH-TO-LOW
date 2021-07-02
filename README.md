@@ -297,7 +297,7 @@ move $a0,$s2
 syscall 
 ```
 ### Factoriel
-<h6>C</h6>
+###### C
 
 ```c
 #include<stdio.h>
