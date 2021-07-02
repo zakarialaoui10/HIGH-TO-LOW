@@ -100,7 +100,7 @@ return 0;
  
   
 ```
-<h3> addition of 2 integers </h3>
+### addition of 2 integers
 <h6>C</h6>
 
 ```c
