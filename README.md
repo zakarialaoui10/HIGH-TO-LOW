@@ -408,7 +408,7 @@ iseven: li $v0,4
 j read
 ```
 ### swap 2 numbers using auxiliary variable
-<h6>C</h6>
+###### C
 
 ```c
 #include<stdio.h>
