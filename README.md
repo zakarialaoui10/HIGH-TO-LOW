@@ -385,7 +385,7 @@ int main(){
   goto read;
 }
 ```
-<h6>MIPS Assembly</h6>
+###### MIPS Assembly
 
 ```assembly
 .data 
