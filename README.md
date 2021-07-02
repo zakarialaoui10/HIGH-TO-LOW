@@ -260,7 +260,7 @@ move $a0,$s1
 syscall 
 ```
 ### Power
-<h6>C</h6>
+###### C
 
 ```c
 #include<stdio.h>
