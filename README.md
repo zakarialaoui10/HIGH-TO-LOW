@@ -479,7 +479,7 @@ int main(){
   return 0;
 }
 ```
-<h6>MIPS Assembly</h6>
+###### MIPS Assembly
 
 ```assembly
 li $s0,3
