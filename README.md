@@ -170,7 +170,7 @@ else c=a-b;
 	return 0;
 }
 ```
-<h6>MIPS Assembly</h6>
+###### MIPS Assembly
 
 ```assembly
 li $t0,5       #a
