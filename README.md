@@ -20,7 +20,7 @@ int main(){
  syscall
 ```
 ### print an integer
-<h6>C</h6>
+###### C
 
 ```c
 #include<stdio.h>
