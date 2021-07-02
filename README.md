@@ -297,7 +297,7 @@ li $v0,1
 move $a0,$s2
 syscall 
 ```
-<h3>Factoriel</h3>
+### Factoriel
 <h6>C</h6>
 
 ```c
