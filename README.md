@@ -370,7 +370,7 @@ iseven: li $v0,4
 j read
 ```
 ### the parity of a number using bitwise and operator 
-<h6>C</h6>
+###### C
 
 ```c
 #include<stdio.h>
