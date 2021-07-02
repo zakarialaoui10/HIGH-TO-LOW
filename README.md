@@ -186,7 +186,7 @@ move $a0,$t2
 syscall 
 ```
 ### nested if
-<h6>C</h6>
+###### C
 
 ```c
 #include<stdio.h>
