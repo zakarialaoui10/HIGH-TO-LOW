@@ -53,7 +53,7 @@ float number=2.5;
 }
 
 ```
-<h6>MIPS Assembly</h6>
+###### MIPS Assembly
 
 ```assembly
 .data
