@@ -64,7 +64,7 @@ float number=2.5;
  syscall 
 ```
 ### read and print an integer 
-<h6>C</h6>
+###### C
 
 ```c
 #include<stdio.h>
