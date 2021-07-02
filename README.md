@@ -408,7 +408,7 @@ iseven: li $v0,4
       syscall
 j read
 ```
-<h3>swap 2 numbers using auxiliary variable</h3>
+### swap 2 numbers using auxiliary variable
 <h6>C</h6>
 
 ```c
