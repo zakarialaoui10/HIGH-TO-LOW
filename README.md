@@ -311,7 +311,7 @@ int main(){
 	printf("%d",f);
 }
 ```
-<h6>MIPS Assembly</h6>
+###### MIPS Assembly
 
 ```assembly
 li $v0,5
