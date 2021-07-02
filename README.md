@@ -495,7 +495,7 @@ la $a0,($s1)
 syscall   
 ```
 ### Array's elements somme
-<h6>C</h6>
+###### C
 
 ```c
 #include<stdio.h>
