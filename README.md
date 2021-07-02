@@ -495,7 +495,7 @@ li $v0,1
 la $a0,($s1)
 syscall   
 ```
-<h3>Array's elements somme</h3>
+### Array's elements somme
 <h6>C</h6>
 
 ```c
