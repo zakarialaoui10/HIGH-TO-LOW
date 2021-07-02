@@ -1,5 +1,5 @@
 ## In this repository you will find codes in C and their equivalence in MIPS Assembly
-<h3>hello world</h3>
+### hello world
 <h6>C</h6>
 
 ```c
