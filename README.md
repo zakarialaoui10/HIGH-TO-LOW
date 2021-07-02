@@ -158,7 +158,7 @@ move $a0,$s2
 syscall
   
 ```
-<h3>if else statement</h3>
+### if else statement
 <h6>C </h6>
 
 ```c
