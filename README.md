@@ -31,7 +31,7 @@ int number=2;
 }
 
 ```
-<h6>MIPS Assembly</h6>
+###### MIPS Assembly
 
 ```assembly
 .data
