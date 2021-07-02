@@ -370,7 +370,7 @@ iseven: li $v0,4
       syscall
 j read
 ```
-<h3>the parity of a number using bitwise and operator</h3>
+### the parity of a number using bitwise and operator 
 <h6>C</h6>
 
 ```c
