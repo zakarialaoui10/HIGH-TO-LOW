@@ -331,7 +331,7 @@ la $a0,($s2)
 syscall
 ```
 ### the parity of a number using the rest of the division
-<h6>C</h6>
+###### C
 
 ```c
 #include<stdio.h>
