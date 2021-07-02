@@ -204,7 +204,7 @@ if(a==1)
 printf("%d",c);
 }
 ```
-<h6>MIPS Assembly</h6>
+###### MIPS Assembly
 
 ```assembly
 li $t0,1  #a
