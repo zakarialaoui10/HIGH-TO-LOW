@@ -129,7 +129,7 @@ move $a0,$s2
 syscall
   
 ```
-<h3> substraction of 2 integers </h3>
+### substraction of 2 integers 
 <h6>C</h6>
 
 ```c
