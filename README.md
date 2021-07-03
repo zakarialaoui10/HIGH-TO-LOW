@@ -30,7 +30,6 @@ int number=2;
 
 ```
 ###### MIPS Assembly
-
 ```assembly
 .data
  number: .word 2
