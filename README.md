@@ -184,7 +184,6 @@ printf("%d",c);
 }
 ```
 ###### MIPS Assembly
-
 ```assembly
 li $t0,1  #a
 li $t1,4  #b
