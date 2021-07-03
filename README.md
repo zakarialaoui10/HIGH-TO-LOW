@@ -27,7 +27,6 @@ int number=2;
   printf("%d",number);
   return 0;
 }
-
 ```
 ###### MIPS Assembly
 ```assembly
