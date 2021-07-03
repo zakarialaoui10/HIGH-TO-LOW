@@ -201,7 +201,6 @@ syscall
 ```
 ### switch statement
 ###### C
-
 ```c
 #include<stdio.h>
 int main(){
