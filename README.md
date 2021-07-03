@@ -47,7 +47,6 @@ float number=2.5;
 }
 ```
 ###### MIPS Assembly
-
 ```assembly
 .data
  number: .float 2.5
