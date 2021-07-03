@@ -273,7 +273,6 @@ syscall
 ```
 ### Factoriel
 ###### C
-
 ```c
 #include<stdio.h>
 int main(){
