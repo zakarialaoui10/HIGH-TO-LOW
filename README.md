@@ -102,7 +102,6 @@ int main()
 }
 ```
 ###### MIPS Assembly
-
 ```assembly
 li $v0,5
 syscall
