@@ -112,7 +112,6 @@ add $s2,$s1,$s0
 li $v0,1
 move $a0,$s2
 syscall
-  
 ```
 ### substraction of 2 integers 
 ###### C
