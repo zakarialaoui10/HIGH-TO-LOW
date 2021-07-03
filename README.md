@@ -138,8 +138,7 @@ move $s1,$v0
 sub $s2,$s0,$s1
 li $v0,1
 move $a0,$s2
-syscall
-  
+syscall 
 ```
 ### if else statement
 ###### C
