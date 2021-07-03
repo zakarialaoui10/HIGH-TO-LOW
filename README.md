@@ -38,7 +38,6 @@ int number=2;
 ```
 ### print a float
 ###### C
-
 ```c
 #include<stdio.h>
 int main(){
