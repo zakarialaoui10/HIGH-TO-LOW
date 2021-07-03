@@ -86,8 +86,6 @@ return 0;
  print_integer:li $v0,1
                la $a0,($s0)
                syscall 
- 
-  
 ```
 ### addition of 2 integers
 ###### C
