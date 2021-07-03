@@ -304,7 +304,6 @@ syscall
 ```
 ### the parity of a number using the rest of the division
 ###### C
-
 ```c
 #include<stdio.h>
 int main(){
