@@ -9,7 +9,6 @@ int main(){
 }
 ```
 ###### MIPS Assembly
-
 ```assembly
 .data
  msg: .asciiz "hello world"
