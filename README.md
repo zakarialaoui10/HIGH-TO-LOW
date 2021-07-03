@@ -404,7 +404,6 @@ syscall
 ```
 ### swap 2 numbers using addition and subtraction 
 ###### C
-
 ```c
 #include<stdio.h>
 int main(){
