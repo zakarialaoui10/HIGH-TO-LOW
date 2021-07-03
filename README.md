@@ -377,7 +377,6 @@ j read
 ```
 ### swap 2 numbers using auxiliary variable
 ###### C
-
 ```c
 #include<stdio.h>
 int main(){
