@@ -58,7 +58,6 @@ float number=2.5;
 ```
 ### read and print an integer 
 ###### C
-
 ```c
 #include<stdio.h>
 int main(){
