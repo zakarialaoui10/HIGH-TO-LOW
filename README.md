@@ -359,7 +359,6 @@ j read
 ```
 ### the parity of a number using bitwise and operator 
 ###### C
-
 ```c
 #include<stdio.h>
 int main(){
