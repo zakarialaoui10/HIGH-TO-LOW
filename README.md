@@ -89,7 +89,6 @@ return 0;
 ```
 ### addition of 2 integers
 ###### C
-
 ```c
 #include<stdio.h>
 int main()
