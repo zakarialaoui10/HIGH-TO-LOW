@@ -141,7 +141,6 @@ syscall
 ```
 ### if else statement
 ###### C
-
 ```c
 #include<stdio.h>
 int main(){
