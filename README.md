@@ -116,7 +116,6 @@ syscall
 ```
 ### substraction of 2 integers 
 ###### C
-
 ```c
 #include<stdio.h>
 int main()
