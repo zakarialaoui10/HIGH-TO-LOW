@@ -19,7 +19,6 @@ int main(){
 ```
 ### print an integer
 ###### C
-
 ```c
 #include<stdio.h>
 int main(){
