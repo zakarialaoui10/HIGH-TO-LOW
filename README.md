@@ -431,7 +431,6 @@ syscall
 ```
 ### swap 2 numbers using bitwise xor operator
 ###### C
-
 ```c
 #include<stdio.h>
 int main(){
