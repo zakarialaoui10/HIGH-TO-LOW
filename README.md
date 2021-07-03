@@ -168,7 +168,6 @@ syscall
 ```
 ### nested if
 ###### C
-
 ```c
 #include<stdio.h>
 int main(){
