@@ -356,7 +356,6 @@ int main(){
 }
 ```
 ###### MIPS Assembly
-
 ```assembly
 .data 
  even : .asciiz "even\n"
