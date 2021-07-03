@@ -69,7 +69,6 @@ return 0;
 }
 ```
 ###### MIPS Assembly
-
 ```assembly
 .data
  msg1: .asciiz "enter an integer : "
