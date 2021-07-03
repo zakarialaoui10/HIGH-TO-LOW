@@ -389,7 +389,6 @@ int main(){
 }
 ```
 ###### MIPS Assembly
-
 ```assembly
 li $s0,3   #a
 li $s1,7   #b
