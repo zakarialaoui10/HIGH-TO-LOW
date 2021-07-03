@@ -152,7 +152,6 @@ else c=a-b;
 }
 ```
 ###### MIPS Assembly
-
 ```assembly
 li $t0,5       #a
 li $t1,3       #b
