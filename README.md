@@ -250,7 +250,6 @@ int main(){
 }
 ```
 ###### MIPS Assembly
-
 ```assembly
 read_x:li $v0,5
        syscall 
