@@ -458,7 +458,6 @@ syscall
 ```
 ### Array's elements somme
 ###### C
-
 ```c
 #include<stdio.h>
 int main(){
