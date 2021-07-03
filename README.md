@@ -215,7 +215,6 @@ printf("%d",b);
 }
 ```
 ###### MIPS Assembly
-
 ```assembly
 # a====>$s0
 # b====>$s1
