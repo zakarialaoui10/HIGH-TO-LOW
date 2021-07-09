@@ -28,7 +28,7 @@ int number=2;
 }
 ```
 ###### MIPS Assembly
-```assembly
+```assembly 
 .data
  number: .word 2
 .text 
