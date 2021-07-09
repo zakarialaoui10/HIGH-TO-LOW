@@ -31,7 +31,7 @@ int number=2;
 ```assembly
 .data
  number: .word 2
-.text
+.text 
  li $v0,1
  lw $a0,number
  syscall 
