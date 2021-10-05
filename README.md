@@ -457,6 +457,50 @@ li $v0,1
 la $a0,($s1)
 syscall   
 ```
+### Read and Print elements of an array
+###### C
+```c
+#include<stdio.h>
+int main(){
+	int arr[5];
+	int s=0;
+	int i=0;
+	while(i<10){
+		s+=*(tab+i); // s=s+tab[i]
+		i++;
+	}
+	printf("%d",s);
+	return 0;
+}
+```
+###### MIPS Assembly
+```assembly
+.data
+ arr: .space 20    #(20=5*4(Size of word))
+ space: .asciiz " "
+.text 
+ li $t0,0
+ read:
+ li $v0,5
+ syscall 
+ sw $v0,arr($t0)
+ addi $t0,$t0,4
+ blt $t0,20,read
+ 
+ la $s0,arr
+ li $t0,0
+ print:
+ li $v0,1
+ lw $a0,($s0)
+ syscall 
+ addi $t0,$t0,4
+ addi $s0,$s0,4
+ li $v0,4
+ la $a0,space
+ syscall 
+ blt $t0,20,print
+```
+
 ### Array's elements somme
 ###### C
 ```c
