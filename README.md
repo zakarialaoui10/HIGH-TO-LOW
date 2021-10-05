@@ -463,14 +463,16 @@ syscall
 #include<stdio.h>
 int main(){
 	int arr[5];
-	int s=0;
 	int i=0;
-	while(i<10){
-		s+=*(tab+i); // s=s+tab[i]
-		i++;
+	//read
+	for(i=0;i<5;i++){
+	    scanf("%d",&arr[i]);
 	}
-	printf("%d",s);
-	return 0;
+	//print
+	for(i=0;i<5;i++){
+	    printf("%d",arr[i]);
+	    printf(" ");
+	}
 }
 ```
 ###### MIPS Assembly
