@@ -535,3 +535,24 @@ addi $t0,$t0,1
 addi $a0,$a0,1
 bne $a0,10,loop
 ```
+
+### print a random integer belongs to the interval 0,10
+###### C            
+```c     
+#include<stdio.h>   
+int main(){  
+  
+  return 0;
+}   
+```  
+###### MIPS Assembly
+```assembly
+.text
+#get random int belongs to the interval 0,10
+li $v0,42
+li $a1,10
+syscall 
+print:
+ li $v0,1
+ syscall 
+```
