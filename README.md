@@ -1,8 +1,9 @@
 	
 ## In this repository you will find codes in C and their equivalence in MIPS Assembly   
 
-[Hello World](#hello_world)
-[Print an integer](#print_an_integer)
+- [Hello World](#hello_world)
+- [Print an integer](#print_an_integer)
+- 
 
 ### hello_world
 ###### C            
