@@ -1,12 +1,12 @@
 	
 ## In this repository you will find codes in C and their equivalence in MIPS Assembly   
 
-- [Hello World](#hello_world)
-- [Print an integer](#print_an_integer)
-- [Print an float](#print_a_float)
-- [Read and print an integer](#read_and_print_an_integer)
-- [Addition of 2 integers](#addition _of_2_integers)
-- [Substraction_of_2_integers](#substraction_of_2_integers)
+- [1-Hello World](#hello_world)
+- [2-Print an integer](#print_an_integer)
+- [3-Print an float](#print_a_float)
+- [4-Read and print an integer](#read_and_print_an_integer)
+- [5-Addition of 2 integers](#addition_of_2_integers)
+- [6-Substraction of 2 integers](#substraction_of_2_integers)
 
 ### hello_world
 ###### C            
