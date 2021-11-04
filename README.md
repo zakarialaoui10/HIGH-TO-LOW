@@ -1,6 +1,10 @@
 	
-## In this repository you will find codes in C and their equivalence in MIPS Assembly               
-### hello world
+## In this repository you will find codes in C and their equivalence in MIPS Assembly   
+
+[Hello World](#hello_world)
+[Print an integer](#print_an_integer)
+
+### hello_world
 ###### C            
 ```c     
 #include<stdio.h>   
@@ -18,7 +22,7 @@ int main(){
  la $a0,msg
  syscall
 ```
-### print an integer
+### print_an_integer
 ###### C
 ```c
 #include<stdio.h>
