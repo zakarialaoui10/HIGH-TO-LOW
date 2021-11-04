@@ -3,7 +3,10 @@
 
 - [Hello World](#hello_world)
 - [Print an integer](#print_an_integer)
-- 
+- [Print an float](#print_a_float)
+- [Read and print an integer](#read_and_print_an_integer)
+- [Addition of 2 integers](#addition _of_2_integers)
+- [Substraction_of_2_integers](#substraction_of_2_integers)
 
 ### hello_world
 ###### C            
@@ -42,7 +45,7 @@ int number=2;
  lw $a0,number
  syscall 
 ```
-### print a float
+### print_a_float
 ###### C
 ```c
 #include<stdio.h>
@@ -61,7 +64,7 @@ float number=2.5;
  lwc1 $f12,number
  syscall 
 ```
-### read and print an integer 
+### read_and_print_an_integer 
 ###### C
 ```c
 #include<stdio.h>
@@ -93,7 +96,7 @@ return 0;
                la $a0,($s0)
                syscall 
 ```
-### addition of 2 integers
+### addition_of_2_integers
 ###### C
 ```c
 #include<stdio.h>
@@ -119,7 +122,7 @@ li $v0,1
 move $a0,$s2
 syscall
 ```
-### substraction of 2 integers 
+### substraction_of_2_integers 
 ###### C
 ```c
 #include<stdio.h>
