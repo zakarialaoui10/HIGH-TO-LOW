@@ -9,6 +9,7 @@
 - [5-Addition of 2 integers](#addition_of_2_integers)
 - [6-Substraction of 2 integers](#substraction_of_2_integers)
 - [7-If else statement](#if_else_statement)
+- [8-nested if](#nested_if)
 
 
 
@@ -180,7 +181,7 @@ li $v0,1
 move $a0,$t2
 syscall 
 ```
-### nested if
+### nested_if
 ###### C
 ```c
 #include<stdio.h>
