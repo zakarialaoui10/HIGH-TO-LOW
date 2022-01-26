@@ -9,3 +9,4 @@ int main(){
   else printf("odd\n");
   goto read;
 }
+
