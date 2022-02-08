@@ -9,3 +9,4 @@ print:
 li $v0,1
 move $a0,$t2
 syscall 
+
