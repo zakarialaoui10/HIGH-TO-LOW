@@ -4,4 +4,3 @@
  li $v0,1
  lw $a0,number
  syscall 
- 
