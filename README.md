@@ -7,7 +7,7 @@
 - [6-Substraction of 2 integers](#substraction_of_2_integers)
 - [7-If else statement](#if_else_statement)
 - [8-nested if](#nested_if)
-
+ 
                        
 ### hello_world    
 ###### C            
@@ -488,84 +488,4 @@ int main(){
 ```assembly
 .data
  arr: .space 20    #(20=5*4(Size of word))
- space: .asciiz " "
-.text 
- li $t0,0
- read:
- li $v0,5
- syscall 
- sw $v0,arr($t0)
- addi $t0,$t0,4
- blt $t0,20,read
- 
- la $s0,arr
- li $t0,0
- print:
- li $v0,1
- lw $a0,($s0)
- syscall 
- addi $t0,$t0,4
- addi $s0,$s0,4
- li $v0,4
- la $a0,space
- syscall 
- blt $t0,20,print
-```
-
-### Array's elements somme
-###### C
-```c
-#include<stdio.h>
-int main(){
-	int tab[10]={0,1,2,3,4,5,6,7,8,9};
-	int s=0;
-	int i=0;
-	while(i<10){
-		s+=*(tab+i); // s=s+tab[i]
-		i++;
-	}
-	printf("%d",s);
-	return 0;
-}
-```
-###### MIPS Assembly
-```assembly
-.data 
-tab: .byte 0,1,2,3,4,5,6,7,8,9
-.text 
-main: 
-la $t0, tab 
-li $a0,0 #compteur
-li $s0,0 #somme
-loop:
-lb $t1,($t0)
-add $s0,$s0,$t1
-addi $t0,$t0,1
-addi $a0,$a0,1
-bne $a0,10,loop
-```
-
-### print a random integer belongs to the interval 0,10
-###### C            
-```c     
-#include<stdio.h>   
-int main(){  
-  
-  return 0;
-}   
-```  
-###### MIPS Assembly
-
-In order to get a random number we have to assign the register $a0 with the value 42.
-the value stored in $a1 represent the upper value of the generated random number 
-
-```assembly
-.text
-#get random int belongs to the interval 0,10
-li $v0,42
-li $a1,10
-syscall 
-print:
- li $v0,1
- syscall 
-```
+ space: .asciiz 
