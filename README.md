@@ -1,7 +1,7 @@
 ## In this repository you will find codes in C and their equivalence in MIPS Assembly   
 - [1-Hello World](#hello-world)
 - [2-Print an integer](#print-an-integer)
-- [3-Print an float](#print_a_float)
+- [3-Print an float](#print-a-float)
 - [4-Read and print an integer](#read_and_print_an_integer)
 - [5-Addition of 2 integers](#addition_of_2_integers)
 - [6-Substraction of 2 integers](#substraction_of_2_integers)
@@ -47,7 +47,7 @@ int number=2;
  lw $a0,number
  syscall 
 ```
-### print_a_float
+### print a float
 ###### C
 ```c
 #include<stdio.h>
