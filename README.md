@@ -1,5 +1,5 @@
 ## In this repository you will find codes in C and their equivalence in MIPS Assembly   
-- [1-Hello World](#hello_world)
+- [1-Hello World](#hello-world)
 - [2-Print an integer](#print_an_integer)
 - [3-Print an float](#print_a_float)
 - [4-Read and print an integer](#read_and_print_an_integer)
@@ -10,7 +10,7 @@
      
        
       
-### hello_world    
+### hello world    
 ###### C            
 ```c      
 #include<stdio.h>   
