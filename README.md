@@ -2,7 +2,7 @@
 - [1-Hello World](#hello-world)
 - [2-Print an integer](#print-an-integer)
 - [3-Print an float](#print-a-float)
-- [4-Read and print an integer](#read_and_print_an_integer)
+- [4-Read and print an integer](#read-and-print-an-integer)
 - [5-Addition of 2 integers](#addition_of_2_integers)
 - [6-Substraction of 2 integers](#substraction_of_2_integers)
 - [7-If else statement](#if_else_statement)
@@ -66,7 +66,7 @@ float number=2.5;
  lwc1 $f12,number
  syscall 
 ```
-### read_and_print_an_integer 
+### read and print an integer 
 ###### C
 ```c
 #include<stdio.h>
