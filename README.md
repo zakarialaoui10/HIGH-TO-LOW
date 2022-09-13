@@ -124,7 +124,7 @@ li $v0,1
 move $a0,$s2
 syscall
 ```
-### substraction_of_2_integers 
+### substraction of 2 integers 
 ###### C
 ```c
 #include<stdio.h>
@@ -176,7 +176,7 @@ li $v0,1
 move $a0,$t2
 syscall 
 ```
-### nested_if
+### nested if
 ###### C
 ```c
 #include<stdio.h>
