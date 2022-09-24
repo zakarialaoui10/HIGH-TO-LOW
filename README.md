@@ -556,8 +556,8 @@ int main(){
 ```  
 ###### MIPS Assembly
 
-In order to get a random number we have to assign the register $a0 with the value 42.
-the value stored in $a1 represent the upper value of the generated random number 
+In order to get a random number we have to assign the register $v0 with the value 42.
+The value stored in $a1 represent the upper value of the generated random number.
 
 ```assembly
 .text
