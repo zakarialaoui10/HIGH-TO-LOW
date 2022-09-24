@@ -548,9 +548,13 @@ bne $a0,10,loop
 ### print a random integer belongs to the interval 0,10
 ###### C            
 ```c     
-#include<stdio.h>   
+#include<stdio.h>
+#include<time.h>
+#include<stdlib.h>
 int main(){  
-  
+  srand(time(NULL));
+  int r = rand();
+  printf("%i", r);
   return 0;
 }   
 ```  
