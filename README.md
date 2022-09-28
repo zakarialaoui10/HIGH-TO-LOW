@@ -548,16 +548,20 @@ bne $a0,10,loop
 ### print a random integer belongs to the interval 0,10
 ###### C            
 ```c     
-#include<stdio.h>   
+#include<stdio.h>
+#include<time.h>
+#include<stdlib.h>
 int main(){  
-  
+  srand(time(NULL));
+  int r = rand();
+  printf("%i", r);
   return 0;
 }   
 ```  
 ###### MIPS Assembly
 
-In order to get a random number we have to assign the register $a0 with the value 42.
-the value stored in $a1 represent the upper value of the generated random number 
+In order to get a random number we have to assign the register $v0 with the value 42.
+The value stored in $a1 represent the upper value of the generated random number.
 
 ```assembly
 .text
