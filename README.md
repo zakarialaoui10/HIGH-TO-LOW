@@ -545,7 +545,7 @@ addi $a0,$a0,1
 bne $a0,10,loop
 ```
 
-### print a random integer belongs to the interval 0,10
+### Print a random integer belongs to the interval 0,10
 ###### C            
 ```c     
 #include<stdio.h>
