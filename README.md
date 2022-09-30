@@ -554,7 +554,7 @@ bne $a0,10,loop
 #include<stdlib.h>
 int main(){  
   srand(time(NULL));
-  int r = rand();
+  int r = rand()%10;
   printf("%i", r);
   return 0;
 }   
