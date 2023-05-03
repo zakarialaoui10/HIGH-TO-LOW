@@ -1,4 +1,4 @@
-## In this repository you will find codes in C and their equivalence in MIPS Assembly   
+## In this repository you will find codes in C and their equivalence in MIPS Assembly    
 - [1-Hello World](#hello-world)
 - [2-Print an integer](#print-an-integer)
 - [3-Print an float](#print-a-float)
