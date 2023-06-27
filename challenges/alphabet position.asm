@@ -1,4 +1,4 @@
-.data 
+.data  
  arr: .space 200
  order: .space 200
  br: .asciiz "\n"
