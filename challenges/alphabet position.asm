@@ -40,3 +40,4 @@ li $a0,0
 li $s0,0
 li $s1,0
 b main
+ 
