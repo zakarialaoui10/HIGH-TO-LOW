@@ -7,7 +7,7 @@ if(a==1)
 {
 	c=a;
 	if(b!=3){
-		c+=b;
+		 c+=b;
 	}	
 }
 printf("%d",c);
