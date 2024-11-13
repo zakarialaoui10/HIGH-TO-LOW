@@ -1,4 +1,4 @@
-## This repository contains C code examples along with their MIPS Assembly equivalents.          
+## This repository contains C code examples along with their MIPS Assembly equivalents.           
       
 
 - [1-Hello World](#hello-world) 
