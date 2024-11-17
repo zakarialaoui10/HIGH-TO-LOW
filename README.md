@@ -1,3 +1,4 @@
+<!-- docs -->
 ## This repository contains C code examples along with their MIPS Assembly equivalents.           
       
 
