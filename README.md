@@ -1,4 +1,12 @@
-<!-- docs -->
+<!-- 
+docs
+
+solid-start ( structure ) 
+zikojs ( components ) 
+mdzjs ( articles )
+ziko-code ( code component )
+
+ -->
 ## This repository contains C code examples along with their MIPS Assembly equivalents.           
       
 
