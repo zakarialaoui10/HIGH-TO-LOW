@@ -7,6 +7,7 @@ mdzjs ( articles )
 ziko-code ( code component )
 ssr 
 taylor series 
+
  -->
 ## This repository contains C code examples along with their MIPS Assembly equivalents.           
       
