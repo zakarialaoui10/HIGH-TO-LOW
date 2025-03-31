@@ -1,7 +1,7 @@
 <!--   
 docs
 solid-start ( structure ) 
-ziko-wrapper ( ) 
+ziko-wrapper ( )  
 zikojs ( components ) 
 mdzjs ( articles )
 ziko-code ( code component )
