@@ -7,7 +7,7 @@ mdzjs ( articles )
 ziko-code ( code component )
 ssr 
 taylor series 
-rename to mips 101 ?   
+rename to mips 101 ?  
    
  --> 
 
