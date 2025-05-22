@@ -10,7 +10,6 @@ taylor series
 rename to mips 101 ?
     
  --> 
-
 ## This repository contains C code examples along with their MIPS Assembly equivalents.           
       
 
